@@ -11,15 +11,17 @@
 
 <link rel="stylesheet" href="./src/css/reset.css">
 <link rel="stylesheet" href="./src/css/style.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
 
 </head>
 <body>
+    
     <main class="personagens">
 
         <div class="personagem selecionado">
             <picture>
                 <source srcset="./src/imagens/bg-cyberstorm.png" media="(min-width: 768px)">
-                <img src="./src/imagens/bg-cyberstorm-mobile.png" alt="Personagem-CyberStorm">
+                <img class="imagem" src="./src/imagens/bg-cyberstorm-mobile.png" alt="Personagem-CyberStorm">
             </picture>
             <div class="conteudo">
                 <h1 class="nome-personagem">CyberStorm</h1>
@@ -30,7 +32,7 @@
         <div class="personagem">
             <picture>
                 <source srcset="./src/imagens/bg-codepixie.png" media="(min-width: 768px)">
-                <img src="./src/imagens/bg-codepixie-mobile.png" alt="Personagem-CodePixie">
+                <img class="imagem" src="./src/imagens/bg-codepixie-mobile.png" alt="Personagem-CodePixie">
             </picture>
             <div class="conteudo">
                 <h1 class="nome-personagem">CodePixie</h1>
@@ -41,7 +43,7 @@
         <div class="personagem">
             <picture>
                 <source srcset="./src/imagens/bg-hexblade.png" media="(min-width: 768px)">
-                <img src="./src/imagens/bg-hexblade-mobile.png" alt="Personagem-HexBlade">
+                <img class="imagem" src="./src/imagens/bg-hexblade-mobile.png" alt="Personagem-HexBlade">
             </picture>
             <div class="conteudo">
                 <h1 class="nome-personagem">HexBlade</h1>
@@ -52,7 +54,7 @@
         <div class="personagem">
             <picture>
                 <source srcset="./src/imagens/bg-neonpulse.png" media="(min-width: 768px)">
-                <img src="./src/imagens/bg-neonpulse-mobile.png" alt="Personagem-NeonPulse">
+                <img class="imagem" src="./src/imagens/bg-neonpulse-mobile.png" alt="Personagem-NeonPulse">
             </picture>
             <div class="conteudo">
                 <h1 class="nome-personagem">NeonPulse</h1>
@@ -63,15 +65,18 @@
         <div class="personagem">
             <picture>
                 <source srcset="./src/imagens/bg-codebreaker.png" media="(min-width: 768px)">
-                <img src="./src/imagens/bg-codebreaker-mobile.png" alt="Personagem-CodeBreaker">
+                <img class="imagem" src="./src/imagens/bg-codebreaker-mobile.png" alt="Personagem-CodeBreaker">
             </picture>
             <div class="conteudo">
                 <h1 class="nome-personagem">CodeBreaker</h1>
                 <p class="descricao">No coração de uma estação espacial abandonada, Orion Vex, um ex-engenheiro cibernético, busca desvendar um código perdido há séculos. Dizem que esse código guarda o segredo para uma tecnologia ancestral capaz de redefinir a inteligência artificial.</p>
-            </div>
+            </div>  
         </div>
+
     </main>
+
     <ul class="botoes">
+
         <li>
             <button class="botao cyberstorm selecionado">
                 <img src="src/imagens/icone-cyberstorm.png" alt="Ícone-CyberStorm">
@@ -101,6 +106,10 @@
                 <img src="src/imagens/icone-codebreaker.png" alt="Ícone-CodeBreaker">
             </button>
         </li>
+
     </ul>
+
+    <script src="./src/js/script.js"></script>
+
 </body>
 </html>
